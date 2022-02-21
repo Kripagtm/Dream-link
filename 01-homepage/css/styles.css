@@ -218,7 +218,7 @@ header{ position: absolute; left: 0; right: 0; top: 20px; z-index: 1000; font-si
 	
 /* LOGO */
 
-header .logo img{ height: 50px; width: auto; }
+header .logo img{ height: 80px; width: auto; }
 
 
 /* MAIN AREA */
