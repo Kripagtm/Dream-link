@@ -1,0 +1,167 @@
+
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+	
+	
+}
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	h1{ font-size: 4em; }
+	h2{ font-size: 3em; }
+	h3{ font-size: 2em; }
+	
+	
+	/* ---------------------------------
+	7. ABOUT SECTION
+	--------------------------------- */
+
+	.about{ width: 50%; padding: 50px; }
+
+}
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 3em; }
+	h2{ font-size: 2.5em; }
+	h3{ font-size: 1.8em; }
+	h4{ font-size: 1.5em; }
+	h5{ font-size: 1.2em; }
+	
+	
+	/* ---------------------------------
+	2. COMMONS FOR PAGE DESIGN
+	--------------------------------- */
+
+	.section{ padding: 50px 0 20px; }
+
+	.section .heading-area{ margin-bottom: 30px; }
+
+	.btn{ padding: 10px 20px; }
+	
+	.btn-fill{ padding: 10px; } 
+	
+	
+	/* ---------------------------------
+	3. MENU
+	--------------------------------- */
+	
+	header{ top: 0; border-bottom: 1px solid rgba(255,255,255, .1); }
+	
+	header .logo img{height: 60px; }
+	
+	
+	/* BOTTOM AREA */
+	
+	header .main-menu{ text-align: left; display: none; float: none; clear: both; max-height: 400px;
+		overflow: auto; border-top: 1px solid #ccc; background: #333; }
+	
+	header .main-menu > li{ display: block; float: none; border-bottom: 1px solid #444; }
+	
+	header .main-menu > li:last-child{ border-bottom: 0; }
+	
+	header .main-menu li > a{ display: block; border: 0; line-height: 1; height: auto; padding: 15px; background: none; }
+	
+	
+	/* NAV ICON */
+	
+	.menu-nav-icon{ display: inline-block; float: right; }
+	
+	/* HOVER */
+		
+	header .main-menu > li > a:hover:after{ transform: translateX(0%); opacity: 0; }	
+	
+	
+	/* ---------------------------------
+	5. FEATURED SECTION
+	--------------------------------- */
+
+	.featured-section .featured{ width: 100%; padding-right: 0px; }
+
+	.featured-section .box-area{ display: none; }
+
+	
+	/* ---------------------------------
+	6. TEAM SECTION
+	--------------------------------- */
+
+	.team-section .team{ width: 50%; }
+
+
+	/* ---------------------------------
+	7. ABOUT SECTION
+	--------------------------------- */
+	
+	.about{ width: 100%; padding: 30px; color: #fff; }
+	
+	.about .desc { color: #eee; }
+
+	.about .btn-border{ border-color: #eee; border-image: none; }
+
+	.about:after{ opacity: 1; }
+
+	
+	/* ---------------------------------
+	9. FOOTER
+	--------------------------------- */
+
+	footer{ padding: 50px 0px 10px; }
+
+}
+
+/* Screens Resolution : 575px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 575px) {
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	body{ font-size: 14px;  }
+	
+
+}
+
+/* Screens Resolution : 479px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+
+	
+	/* ---------------------------------
+	6. TEAM SECTION
+	--------------------------------- */
+
+	.team-section .team{ width: 100%; }
+
+
+}
+
+/* Screens Resolution : 359px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+	
+	
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+	
+	
+}
