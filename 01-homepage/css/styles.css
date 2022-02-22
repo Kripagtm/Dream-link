@@ -258,7 +258,7 @@ header .main-menu > li > a:hover:after{ transform: translateX(0%); opacity: 1; }
 
 .slider-content .pre-heading{ margin-bottom: 10px; letter-spacing: 1px; }
 
-.slider-content .slider-btn{ margin-top: 30px; border-color: #fff; color: #145382; }
+.slider-content .slider-btn{ margin-top: 30px; border-color: #fff; color: #fff; }
 
 .slider-content .slider-btn:hover{ background: #fff; color: #222; }
 
